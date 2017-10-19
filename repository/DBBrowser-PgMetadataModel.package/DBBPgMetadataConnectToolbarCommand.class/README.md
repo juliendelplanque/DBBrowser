@@ -1,0 +1,1 @@
+I represent the action in the toolbar allowing to load database data using PgMetadata project.

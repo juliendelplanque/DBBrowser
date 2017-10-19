@@ -1,0 +1,1 @@
+I am the model adapter allowing DBBBrowser to manipulate a PgMetadata model.

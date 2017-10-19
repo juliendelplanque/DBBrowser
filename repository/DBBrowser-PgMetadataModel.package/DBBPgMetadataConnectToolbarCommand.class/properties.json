@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulienDelplanque 10/16/2017 20:53",
+	"super" : "DBBToolbarCommand",
+	"category" : "DBBrowser-PgMetadataModel",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DBBPgMetadataConnectToolbarCommand",
+	"type" : "normal"
+}
