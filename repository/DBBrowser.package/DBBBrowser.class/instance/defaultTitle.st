@@ -1,0 +1,3 @@
+accessing
+defaultTitle
+	^ 'Database Browser'

@@ -1,0 +1,1 @@
+I am an abstract command the user can use in DBBBrowser's toolbar .

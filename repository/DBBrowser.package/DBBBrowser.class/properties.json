@@ -1,0 +1,19 @@
+{
+	"commentStamp" : "",
+	"super" : "ComposableModel",
+	"category" : "DBBrowser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"databasesList",
+		"databaseItemGroupsList",
+		"databaseItemsList",
+		"toolbar",
+		"codeEditor",
+		"modelAdapter",
+		"state"
+	],
+	"name" : "DBBBrowser",
+	"type" : "normal"
+}

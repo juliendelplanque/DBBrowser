@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulienDelplanque 10/12/2017 21:19",
+	"super" : "DBBCommand",
+	"category" : "DBBrowser",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DBBRefreshItemGroupsList",
+	"type" : "normal"
+}

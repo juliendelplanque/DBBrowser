@@ -1,0 +1,1 @@
+I am allowing to store additional states in the DBBBrowser. I am useful for extensions to the browser that require to maintain information.
