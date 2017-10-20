@@ -1,7 +1,7 @@
 executing
-executeOn: aDBBBrowser
+execute
 	DBBPgMetadataConnectWidget new
-		fromConnection: (aDBBBrowser state
+		fromConnection: (self browser state
 								propertyAt: #pgConnection 
 								ifAbsent: [ PgConnection
 												hostname: ''
@@ -20,14 +20,13 @@ executeOn: aDBBBrowser
 			metadata := PgMetadata
 							database: widget database
 							connection: connection.
-			aDBBBrowser
-				modelAdapter:
+			self browser modelAdapter:
 					(DBBPgMetadataModelAdapter new
 						pgMetadata: metadata;
 						connect;
 						yourself).
-			aDBBBrowser state
+			self browser state
 				propertyAt: #pgConnection put: connection.
-			DBBRefreshDatabasesList executeOn: aDBBBrowser.
+			DBBRefreshDatabasesList executeOn: self browser.
 			widget window close ];
 		openWithSpec
