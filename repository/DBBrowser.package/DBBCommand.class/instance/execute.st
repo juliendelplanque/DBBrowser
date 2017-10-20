@@ -1,3 +1,3 @@
 executing
-executeOn: aDBBBrowser
+execute
 	^ self subclassResponsibility

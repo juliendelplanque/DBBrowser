@@ -1,4 +1,5 @@
 executing
 executeOn: aDBBBrowser
 	^ self new
-		executeOn: aDBBBrowser
+		browser: aDBBBrowser;
+		execute
