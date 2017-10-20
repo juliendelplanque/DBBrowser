@@ -14,5 +14,4 @@ execute
 		title: 'Groups Metrics';
 		items: data;
 		displayBlock: [ :item | item collect: #asString ];
-		menu: [ :menu | menu add: 'Export to csv' target: self selector: #csvExport: argument: data ];
 		openWithSpec
