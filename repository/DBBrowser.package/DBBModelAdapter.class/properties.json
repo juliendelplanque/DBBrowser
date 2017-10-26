@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "Object",
-	"category" : "DBBrowser",
+	"category" : "DBBrowser-ModelAdapter",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

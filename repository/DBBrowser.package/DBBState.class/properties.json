@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "JulienDelplanque 10/16/2017 20:34",
 	"super" : "Object",
-	"category" : "DBBrowser",
+	"category" : "DBBrowser-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],

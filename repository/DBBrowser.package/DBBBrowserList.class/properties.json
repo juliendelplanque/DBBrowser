@@ -1,7 +1,7 @@
 {
 	"commentStamp" : "",
 	"super" : "ComposableModel",
-	"category" : "DBBrowser",
+	"category" : "DBBrowser-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
