@@ -8,7 +8,9 @@
 	"instvars" : [
 		"label",
 		"refreshButton",
-		"list"
+		"list",
+		"abstractCommandClassForMenu",
+		"browser"
 	],
 	"name" : "DBBBrowserList",
 	"type" : "normal"

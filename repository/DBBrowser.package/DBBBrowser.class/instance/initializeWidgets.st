@@ -1,7 +1,7 @@
 initialization
 initializeWidgets
-	databasesList := DBBBrowserList new.
-	databaseItemGroupsList := DBBBrowserList new.
-	databaseItemsList := DBBBrowserList new.
+	databasesList := DBBBrowserList forBrowser: self.
+	databaseItemGroupsList := DBBBrowserList forBrowser: self.
+	databaseItemsList := DBBBrowserList forBrowser: self.
 	codeEditor := DBBCodeEditor new.
 	self initializeToolbar.

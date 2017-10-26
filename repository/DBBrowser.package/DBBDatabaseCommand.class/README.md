@@ -1,0 +1,1 @@
+I am an abstract command to apply on the current database selected in the DBBBrowser.
