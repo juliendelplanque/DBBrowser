@@ -20,5 +20,4 @@ initializePresenter
 		abstractCommandClassForMenu: DBBItemCommand;
 		beSingleSelection;
 		buttonAction: [ DBBRefreshItemsList executeOn: self ];
-		whenSelectedItemChanged: [ DBBRefreshSourceCode executeOn: self ];
 		displayBlock: [ :item | self modelAdapter nameForItem: item ]

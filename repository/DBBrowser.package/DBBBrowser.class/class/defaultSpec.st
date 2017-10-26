@@ -12,7 +12,5 @@ defaultSpec
 								addSplitter;
 								add: #databaseItemGroupsList;
 								addSplitter;
-								add: #databaseItemsList ];
-								addSplitter;
-								newRow: #codeEditor ] ];
+								add: #databaseItemsList ] ] ];
 		yourself

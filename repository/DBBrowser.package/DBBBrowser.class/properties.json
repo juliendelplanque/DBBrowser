@@ -10,7 +10,6 @@
 		"databaseItemGroupsList",
 		"databaseItemsList",
 		"toolbar",
-		"codeEditor",
 		"modelAdapter",
 		"state"
 	],
