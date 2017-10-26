@@ -8,6 +8,6 @@ initializeToolbar
 						item
 							description: class commandDescription;
 							action: [ class executeOn: self ].
-						class hasToolbarIcon
-							ifTrue: [ item icon: class toolbarIcon ]
+						class hasIcon
+							ifTrue: [ item icon: class icon ]
 							ifFalse: [ item name: class commandName ] ] ] ]
