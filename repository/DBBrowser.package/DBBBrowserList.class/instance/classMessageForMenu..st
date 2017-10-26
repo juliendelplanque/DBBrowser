@@ -8,7 +8,7 @@ classMessageForMenu: anObject
 				do: [ :commandClass |
 					menu
 						add: commandClass commandName
-						target: commandClass
-						selector: #executeOn:
-						argument: self browser ].
+						target: self browser
+						selector: #execute:
+						argument: commandClass ].
 					menu ] ]

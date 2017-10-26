@@ -2,7 +2,7 @@ executing
 execute
 	| groups data |
 	self browser hasDatabaseSelected
-		ifFalse: [ UIManager default inform: 'Please select a database first.'. ^ self ].
+		ifFalse: [ self error: 'Please select a database first.' ].
 	groups := self modelAdapter itemGroupsListForDatabase: self browser databaseSelected.
 	data := groups collect: [ :group |
 		{ 

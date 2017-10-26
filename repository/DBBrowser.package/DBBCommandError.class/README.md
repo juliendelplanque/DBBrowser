@@ -1,0 +1,1 @@
+I am an error raised by a command's execution.

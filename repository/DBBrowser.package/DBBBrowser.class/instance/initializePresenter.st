@@ -5,23 +5,23 @@ initializePresenter
 		label: 'Databases';
 		classMessageForMenu: #allDatabaseMenuCommands;
 		beSingleSelection;
-		buttonAction: [ DBBRefreshDatabasesList executeOn: self ];
+		buttonAction: [ self execute: DBBRefreshDatabasesList ];
 		whenSelectedItemChanged: [ 
-			DBBCommand allDatabaseSelectedCommands do: [ :class | class executeOn: self ] ];
+			DBBCommand allDatabaseSelectedCommands do: [ :class | self execute: class ] ];
 		displayBlock: [ :database | self modelAdapter nameForDatabase: database ].
 	self databaseItemGroupsList
 		label: 'Item groups';
 		classMessageForMenu: #allItemsGroupMenuCommands;
 		beSingleSelection;
-		buttonAction: [ DBBRefreshItemGroupsList executeOn: self ];
+		buttonAction: [ self execute: DBBRefreshItemGroupsList ];
 		whenSelectedItemChanged: [ 
-			DBBCommand allItemsGroupSelectedCommands do: [ :class | class executeOn: self ] ];
+			DBBCommand allItemsGroupSelectedCommands do: [ :class | self execute: class ] ];
 		displayBlock: [ :group | self modelAdapter nameForGroup: group ].
 	self databaseItemsList
 		label: 'Items';
 		classMessageForMenu: #allDatabaseMenuCommands;
 		beSingleSelection;
-		buttonAction: [ DBBRefreshItemsList executeOn: self ];
+		buttonAction: [ self execute: DBBRefreshItemsList ];
 		whenSelectedItemChanged: [ 
-			DBBCommand allItemSelectedCommands do: [ :class | class executeOn: self ] ];
+			DBBCommand allItemSelectedCommands do: [ :class | self execute: class ] ];
 		displayBlock: [ :item | self modelAdapter nameForItem: item ]

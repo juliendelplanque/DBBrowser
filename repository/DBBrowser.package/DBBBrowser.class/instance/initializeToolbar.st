@@ -7,7 +7,7 @@ initializeToolbar
 					addItem: [ :item | 
 						item
 							description: class commandDescription;
-							action: [ class executeOn: self ].
+							action: [ self execute: class ].
 						class hasIcon
 							ifTrue: [ item icon: class icon ]
 							ifFalse: [ item name: class commandName ] ] ] ]

@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulienDelplanque 10/26/2017 23:02",
+	"super" : "DBBError",
+	"category" : "DBBrowser-Errors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"command"
+	],
+	"name" : "DBBCommandError",
+	"type" : "normal"
+}

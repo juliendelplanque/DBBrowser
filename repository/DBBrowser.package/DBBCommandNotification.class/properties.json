@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulienDelplanque 10/26/2017 23:00",
+	"super" : "DBBNotification",
+	"category" : "DBBrowser-Errors",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"command"
+	],
+	"name" : "DBBCommandNotification",
+	"type" : "normal"
+}
