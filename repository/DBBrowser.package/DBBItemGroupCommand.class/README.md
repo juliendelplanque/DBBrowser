@@ -1,1 +1,0 @@
-I am an abstract command to apply on the current database group selected in the DBBBrowser.

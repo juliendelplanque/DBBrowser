@@ -1,10 +1,10 @@
 accessing
-abstractCommandClassForMenu: anObject
-	abstractCommandClassForMenu := anObject.
+classMessageForMenu: anObject
+	classMessageForMenu := anObject.
 	
-	abstractCommandClassForMenu ifNotNil: [ 
+	classMessageForMenu ifNotNil: [ 
 		list menu: [ :menu |
-			abstractCommandClassForMenu allUsableCommands
+			(classMessageForMenu value: DBBCommand)
 				do: [ :commandClass |
 					menu
 						add: commandClass commandName

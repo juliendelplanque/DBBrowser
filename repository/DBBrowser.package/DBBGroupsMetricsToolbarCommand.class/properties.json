@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "",
-	"super" : "DBBDatabaseCommand",
+	"super" : "DBBCommand",
 	"category" : "DBBrowser-Commands",
 	"classinstvars" : [ ],
 	"pools" : [ ],

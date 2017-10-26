@@ -2,7 +2,7 @@ initialization
 initializeToolbar
 	toolbar := MenuModel new
 		addGroup: [ :group | 
-			DBBCommand allUsableToolbarCommands do: [ :class | 
+			DBBCommand allToolbarCommands do: [ :class | 
 				group
 					addItem: [ :item | 
 						item

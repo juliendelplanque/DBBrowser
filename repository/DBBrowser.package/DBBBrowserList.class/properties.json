@@ -9,8 +9,8 @@
 		"label",
 		"refreshButton",
 		"list",
-		"abstractCommandClassForMenu",
-		"browser"
+		"browser",
+		"classMessageForMenu"
 	],
 	"name" : "DBBBrowserList",
 	"type" : "normal"
