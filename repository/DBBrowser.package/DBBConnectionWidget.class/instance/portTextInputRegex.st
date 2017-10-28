@@ -1,3 +1,3 @@
-accessing
+public api
 portTextInputRegex
 	^ portTextInputRegex

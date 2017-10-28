@@ -18,7 +18,11 @@
 		"databaseTextInput",
 		"okButton",
 		"cancelButton",
-		"portTextInputRegex"
+		"portTextInputRegex",
+		"hostnameTextInputRegex",
+		"databaseTextInputRegex",
+		"userTextInputRegex",
+		"passwordTextInputRegex"
 	],
 	"name" : "DBBConnectionWidget",
 	"type" : "normal"

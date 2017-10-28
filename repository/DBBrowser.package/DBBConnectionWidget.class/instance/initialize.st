@@ -3,4 +3,8 @@ initialize
 	super initialize.
 	self
 		title: 'PgMetadata connection form';
-		portTextInputRegex: '\d\d\d\d'
+		hostnameTextInputRegex: '.+';
+		portTextInputRegex: '\d\d\d\d';
+		databaseTextInputRegex: '.+';
+		userTextInputRegex: '.+';
+		passwordTextInputRegex: '.+'
