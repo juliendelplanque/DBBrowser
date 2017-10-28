@@ -1,0 +1,1 @@
+I am a widget holding a list of items for the DBBBrowser.

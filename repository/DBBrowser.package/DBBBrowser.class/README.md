@@ -1,0 +1,1 @@
+I am the main widget of  DBBBrowser.

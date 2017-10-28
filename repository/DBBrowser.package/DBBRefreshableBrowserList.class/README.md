@@ -1,0 +1,1 @@
+I am the same as my parent class with an additional button for refreshing the list.
