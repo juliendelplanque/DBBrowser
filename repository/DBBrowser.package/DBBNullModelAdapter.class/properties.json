@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "JulienDelplanque 10/28/2017 17:03",
+	"super" : "DBBModelAdapter",
+	"category" : "DBBrowser-ModelAdapter",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DBBNullModelAdapter",
+	"type" : "normal"
+}

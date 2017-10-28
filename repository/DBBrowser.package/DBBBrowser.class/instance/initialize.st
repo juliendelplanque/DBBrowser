@@ -4,6 +4,7 @@ initialize
 	commandsManager := DBBCommandsManager new
 								browser: self;
 								yourself.
-								
+	self modelAdapter: DBBNullModelAdapter new.
 	super initialize.
-	self title: self defaultTitle.
+	self
+		title: self defaultTitle

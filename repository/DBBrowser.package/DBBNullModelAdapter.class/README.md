@@ -1,0 +1,1 @@
+Implementation of the null-Object design pattern.
