@@ -1,0 +1,3 @@
+commands management
+allItemsGroupSelectedCommands
+	^ self allCommandsAvailableForModelAdapter select: #isForItemsGroupSelected

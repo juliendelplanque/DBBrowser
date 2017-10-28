@@ -1,0 +1,3 @@
+commands management
+allDatabaseSelectedCommands
+	^ self allCommandsAvailableForModelAdapter select: #isForDatabaseSelected

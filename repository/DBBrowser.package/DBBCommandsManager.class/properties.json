@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulienDelplanque 10/28/2017 16:42",
+	"super" : "Object",
+	"category" : "DBBrowser-Commands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"browser"
+	],
+	"name" : "DBBCommandsManager",
+	"type" : "normal"
+}

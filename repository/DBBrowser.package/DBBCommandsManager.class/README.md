@@ -1,0 +1,1 @@
+I am responsable for exposing available commands to a DBBBrowser.

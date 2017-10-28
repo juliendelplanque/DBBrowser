@@ -4,7 +4,7 @@ classMessageForMenu: anObject
 	
 	classMessageForMenu ifNotNil: [ 
 		list menu: [ :menu |
-			(classMessageForMenu value: DBBCommand)
+			(classMessageForMenu value: self browser commandsManager)
 				do: [ :commandClass |
 					menu
 						add: commandClass commandName

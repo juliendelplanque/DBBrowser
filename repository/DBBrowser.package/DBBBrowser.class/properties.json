@@ -11,7 +11,8 @@
 		"databaseItemsList",
 		"toolbar",
 		"modelAdapter",
-		"state"
+		"state",
+		"commandsManager"
 	],
 	"name" : "DBBBrowser",
 	"type" : "normal"

@@ -1,0 +1,3 @@
+commands management
+allDatabaseMenuCommands
+	^ self allCommandsAvailableForModelAdapter select: #isForDatabaseMenu
