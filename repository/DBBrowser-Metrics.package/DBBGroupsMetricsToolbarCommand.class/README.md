@@ -1,0 +1,1 @@
+Open a widget displaying metrics about groups of entities in a DB model.
