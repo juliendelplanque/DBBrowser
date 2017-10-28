@@ -4,4 +4,4 @@ okButtonAction: aBlock
 		[ 
 			self checkInputsMatchRegexes.
 			aBlock value: self
-		] on: DBBError do: [ :error | UIManager default alert: error messageText ] ]
+		] on: DBBError do: [ :error | self actionOnDBBError: error ] ]
