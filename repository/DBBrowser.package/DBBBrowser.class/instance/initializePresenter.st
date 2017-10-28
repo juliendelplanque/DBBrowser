@@ -18,7 +18,7 @@ initializePresenter
 		displayBlock: [ :group | self modelAdapter nameForGroup: group ].
 	self databaseItemsList
 		label: 'Items';
-		classMessageForMenu: #allDatabaseMenuCommands;
+		classMessageForMenu: #allItemMenuCommands;
 		beSingleSelection;
 		whenSelectedItemChanged: [ 
 			DBBCommand allItemSelectedCommands do: [ :class | self execute: class ] ];
