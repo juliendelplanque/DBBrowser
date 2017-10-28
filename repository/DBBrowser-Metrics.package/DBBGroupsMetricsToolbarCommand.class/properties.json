@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "DBBCommand",
+	"category" : "DBBrowser-Metrics-Commands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "DBBGroupsMetricsToolbarCommand",
+	"type" : "normal"
+}
