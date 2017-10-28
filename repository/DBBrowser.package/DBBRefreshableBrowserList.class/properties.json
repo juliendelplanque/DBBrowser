@@ -1,16 +1,13 @@
 {
 	"commentStamp" : "",
-	"super" : "ComposableModel",
+	"super" : "DBBBrowserList",
 	"category" : "DBBrowser-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [
-		"label",
-		"list",
-		"browser",
-		"classMessageForMenu"
+		"refreshButton"
 	],
-	"name" : "DBBBrowserList",
+	"name" : "DBBRefreshableBrowserList",
 	"type" : "normal"
 }

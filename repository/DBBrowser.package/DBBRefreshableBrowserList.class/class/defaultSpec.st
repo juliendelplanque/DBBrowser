@@ -5,6 +5,7 @@ defaultSpec
 				column
 					newRow: [ :row |
 						row
-							add: #label ] height: self buttonHeight;
+							add: #label;
+							newColumn: #refreshButton width: self buttonHeight ] height: self buttonHeight;
 					add: #list ];
 		yourself

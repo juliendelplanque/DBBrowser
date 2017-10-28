@@ -13,7 +13,6 @@ initializePresenter
 		label: 'Item groups';
 		classMessageForMenu: #allItemsGroupMenuCommands;
 		beSingleSelection;
-		buttonAction: [ self execute: DBBRefreshItemGroupsList ];
 		whenSelectedItemChanged: [ 
 			DBBCommand allItemsGroupSelectedCommands do: [ :class | self execute: class ] ];
 		displayBlock: [ :group | self modelAdapter nameForGroup: group ].
@@ -21,7 +20,6 @@ initializePresenter
 		label: 'Items';
 		classMessageForMenu: #allDatabaseMenuCommands;
 		beSingleSelection;
-		buttonAction: [ self execute: DBBRefreshItemsList ];
 		whenSelectedItemChanged: [ 
 			DBBCommand allItemSelectedCommands do: [ :class | self execute: class ] ];
 		displayBlock: [ :item | self modelAdapter nameForItem: item ]
