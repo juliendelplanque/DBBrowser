@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "JulienDelplanque 10/28/2017 16:36",
+	"super" : "DBBComposableModel",
+	"category" : "DBBrowser-Spec",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"browser"
+	],
+	"name" : "DBBComposableModelKnowingBrowser",
+	"type" : "normal"
+}

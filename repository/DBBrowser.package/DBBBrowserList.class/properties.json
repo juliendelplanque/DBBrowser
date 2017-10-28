@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "JulienDelplanque 10/28/2017 15:44",
-	"super" : "DBBComposableModel",
+	"super" : "DBBComposableModelKnowingBrowser",
 	"category" : "DBBrowser-Spec",
 	"classinstvars" : [ ],
 	"pools" : [ ],
@@ -8,7 +8,6 @@
 	"instvars" : [
 		"label",
 		"list",
-		"browser",
 		"classMessageForMenu"
 	],
 	"name" : "DBBBrowserList",
