@@ -1,5 +1,5 @@
-public api
-fromConnection: aPgConnection
+*DBBrowser-PgMetadataModel
+fromPgConnection: aPgConnection
 	databaseTextInput
 		text: aPgConnection database.
 		

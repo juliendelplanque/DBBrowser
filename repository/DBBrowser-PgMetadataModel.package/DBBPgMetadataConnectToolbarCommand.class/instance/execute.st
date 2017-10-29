@@ -1,7 +1,7 @@
 executing
 execute
-	DBBPgMetadataConnectWidget new
-		fromConnection: (self browser state
+	DBBConnectionWidget new
+		fromPgConnection: (self browser state
 								propertyAt: #pgConnection 
 								ifAbsent: [ PgConnection
 												hostname: ''
@@ -9,7 +9,7 @@ execute
 												database: ''
 												user: ''
 												password: '' ] );
-		okButtonAction: [ :widget | 
+		okButtonAction: [ :widget |
 			| connection metadata |
 			connection := PgConnection
 								hostname: widget hostname
@@ -27,6 +27,6 @@ execute
 						yourself).
 			self browser state
 				propertyAt: #pgConnection put: connection.
-			DBBRefreshDatabasesList executeOn: self browser.
+			self browser execute: DBBRefreshDatabasesList.
 			widget window close ];
 		openWithSpec

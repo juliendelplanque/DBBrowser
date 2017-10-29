@@ -1,1 +1,0 @@
-I am the widget letting the user input the connection informations of the database.
