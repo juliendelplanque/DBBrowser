@@ -1,6 +1,6 @@
 {
 	"commentStamp" : "JulienDelplanque 10/12/2017 21:19",
-	"super" : "DBBCommand",
+	"super" : "DBBBrowserCommand",
 	"category" : "DBBrowser-Commands",
 	"classinstvars" : [ ],
 	"pools" : [ ],

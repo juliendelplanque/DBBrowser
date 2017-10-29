@@ -1,11 +1,13 @@
 {
 	"commentStamp" : "JulienDelplanque 10/29/2017 11:52",
-	"super" : "Object",
+	"super" : "DBBCommand",
 	"category" : "DBBrowser-Commands",
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
-	"name" : "DBBCommand",
+	"instvars" : [
+		"browser"
+	],
+	"name" : "DBBBrowserCommand",
 	"type" : "normal"
 }

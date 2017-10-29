@@ -1,1 +1,1 @@
-I am an abstract command the user can use in the DBBBrowser.
+I am an abstract command.
