@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "JulienDelplanque 10/29/2017 12:08",
+	"super" : "DBBCommand",
+	"category" : "DBBrowser-Metrics-Commands",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"header",
+		"data"
+	],
+	"name" : "DBBExportMetricsCommand",
+	"type" : "normal"
+}

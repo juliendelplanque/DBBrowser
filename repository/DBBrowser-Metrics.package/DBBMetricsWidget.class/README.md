@@ -1,0 +1,1 @@
+I am the widget responsible for displaying metrics about a DB and to provide utilities to export them.

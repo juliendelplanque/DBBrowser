@@ -1,0 +1,1 @@
+I export the metrics of DB groups to a file.

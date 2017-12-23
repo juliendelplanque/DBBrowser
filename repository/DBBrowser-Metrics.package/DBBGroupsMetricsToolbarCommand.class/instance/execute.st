@@ -9,9 +9,7 @@ execute
 			self modelAdapter nameForGroup: group .
 			(self modelAdapter itemsListForGroup: group database: self browser databaseSelected) size
 		} ].
-	data := { {'Group name' . 'Entities count'} } , data.
-	MultiColumnListModel new
-		title: 'Groups Metrics';
-		items: data;
-		displayBlock: [ :item | item collect: #asString ];
+	DBBMetricsWidget new
+		header: #('Group name' 'Entities count');
+		metricsListItems: data;
 		openWithSpec
